@@ -6,7 +6,7 @@ addons:
   postgresql: "9.4"
 
 before_script:
-- export DATABASE_URL=postgres://postgres@localhost/customusermodel
+- export DATABASE_URL=postgres://postgres@localhost/custommodel
 - export DJANGO_SECRET=`openssl rand -base64 32`
 - psql -c "CREATE DATABASE kyr;" -U postgres
 
