@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/aniketmaithani/django-custom-user-example/badge.svg?branch=master)](https://coveralls.io/github/aniketmaithani/django-custom-user-example?branch=master)
+.. image:: https://coveralls.io/repos/github/aniketmaithani/django-custom-user-example/badge.svg?branch=master :target: https://coveralls.io/github/aniketmaithani/django-custom-user-example?branch=master
 
 ==========================
 Django Custom User Example
