@@ -11,7 +11,7 @@ before_script:
 - psql -c "CREATE DATABASE kyr;" -U postgres
 
 install:
-  - pip install -r requirement-dev.txt
+  - pip install -r dev-requirements.txt
 
 script:
 - py.test --cov -v --tb=native
