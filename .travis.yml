@@ -16,6 +16,9 @@ install:
 script:
 - py.test --cov -v --tb=native
 
+after_script:
+- coveralls
+
 notifications:
   email:
     on_success: change  # [always|never|change]
