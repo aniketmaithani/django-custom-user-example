@@ -1,0 +1,22 @@
+language: python
+sudo: false
+python:
+- '2.7.11'
+addons:
+  postgresql: "9.4"
+
+before_script:
+- export DATABASE_URL=postgres://postgres@localhost/customusermodel
+- export DJANGO_SECRET=`openssl rand -base64 32`
+- psql -c "CREATE DATABASE kyr;" -U postgres
+
+install:
+  - pip install -r requirement-dev.txt
+
+script:
+- py.test --cov -v --tb=native
+
+notifications:
+  email:
+    on_success: change  # [always|never|change]
+    on_failure: always  # [always|never|change]
