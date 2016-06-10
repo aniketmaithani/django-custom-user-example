@@ -3,6 +3,10 @@
 .. image:: https://travis-ci.org/aniketmaithani/django-custom-user-example.svg?branch=master
     :target: https://travis-ci.org/aniketmaithani/django-custom-user-example
 
+.. image:: https://landscape.io/github/aniketmaithani/django-custom-user-example/master/landscape.svg?style=flat
+   :target: https://landscape.io/github/aniketmaithani/django-custom-user-example/master
+   :alt: Code Health
+
 ==========================
 Django Custom User Example
 ==========================
