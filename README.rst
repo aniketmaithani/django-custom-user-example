@@ -1,4 +1,5 @@
-.. image:: https://coveralls.io/repos/github/aniketmaithani/django-custom-user-example/badge.svg?branch=master :target: https://coveralls.io/github/aniketmaithani/django-custom-user-example?branch=master
+.. image:: https://codecov.io/gh/aniketmaithani/django-custom-user-example/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/aniketmaithani/django-custom-user-example
 
 .. image:: https://travis-ci.org/aniketmaithani/django-custom-user-example.svg?branch=master
     :target: https://travis-ci.org/aniketmaithani/django-custom-user-example

@@ -18,6 +18,7 @@ script:
 
 after_script:
 - coveralls
+- bash <(curl -s https://codecov.io/bash)
 
 notifications:
   email:
