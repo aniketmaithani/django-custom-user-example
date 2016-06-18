@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from customuser.accounts.forms import (CustomUserCreationForm)
+from customuser.accounts.forms import (CustomUserCreationForm, CustomUserChangeForm)
 import pytest
 
 
